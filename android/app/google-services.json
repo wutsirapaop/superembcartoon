@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "503760378671",
+    "project_id": "embcartoon-1f307",
+    "storage_bucket": "embcartoon-1f307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503760378671:android:63e7d5416282f6bd639fda",
+        "android_client_info": {
+          "package_name": "com.example.emb_cartoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503760378671-9s1g29a4uqca78v7ujbjvdi653h7ct4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiAdtcEBVdnnYtWvo0kn7tdT8-lNINyjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503760378671-9s1g29a4uqca78v7ujbjvdi653h7ct4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
