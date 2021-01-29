@@ -1,5 +1,9 @@
+import 'package:emb_cartoon/OnepieceMovie/onepiecemovie3.dart';
+import 'package:emb_cartoon/OnepieceMovie/onepiecemovie4.dart';
 import 'package:flutter/material.dart';
 import 'package:emb_cartoon/homepage.dart';
+import 'package:emb_cartoon/OnepieceMovie/onepiecemovie1.dart';
+import 'package:emb_cartoon/OnepieceMovie/onepiecemovie2.dart';
 
 class Onepiecemoviepage extends StatefulWidget {
   @override
@@ -24,7 +28,6 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
               color: Color(0xffFFFF00),
             ),
           ),
-         
         ),
         bottomNavigationBar: BottomAppBar(
           color: Color(0xff000000),
@@ -49,6 +52,13 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => opm1()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -75,10 +85,17 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
                   ),
                 ],
               ),
-            ),
+            ),),
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => opm2()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -105,10 +122,17 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
                   ),
                 ],
               ),
-            ),
+            ),),
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => opm3()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -136,11 +160,18 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
                   ),
                 ],
               ),
-            ),
+            ),),
            
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => opm4()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -167,7 +198,7 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
                   ),
                 ],
               ),
-            ),
+            ),),
           ],
         ));
   }

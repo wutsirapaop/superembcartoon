@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:emb_cartoon/homepage.dart';
 import 'package:emb_cartoon/Doramon/doramonmovie1.dart';
-import 'package:emb_cartoon/Doramon/doramonmovie2.dart';
 import 'package:emb_cartoon/Doramon/doramonmovie3.dart';
 import 'package:emb_cartoon/Doramon/doramonmovie4.dart';
-import 'package:emb_cartoon/Doramon/doramonmovie5.dart';
+import 'package:flutter/material.dart';
+import 'package:emb_cartoon/homepage.dart';
+import 'package:emb_cartoon/Doramon/doramonmovie2.dart';
 
 
 
@@ -31,7 +30,6 @@ class _DoramonpageState extends State<Doramonpage> {
               color: Color(0xffFFFF00),
             ),
           ),
-         
         ),
         bottomNavigationBar: BottomAppBar(
           color: Color(0xff000000),
@@ -211,7 +209,7 @@ class _DoramonpageState extends State<Doramonpage> {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute<void>(builder: (context) => doramon5()),
+                            MaterialPageRoute<void>(builder: (context) => doramon3()),
                           );
                         },
               child: Column(

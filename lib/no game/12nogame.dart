@@ -57,7 +57,7 @@ class _nogame12State extends State<nogame12> {
                           )),
           Expanded(
               child: InAppWebView(
-            initialUrl: "https://drive.google.com/file/d/1708Xm-e4qdaghuE-J7iSp4UdN5kb0o23/view?usp=sharing",
+            initialUrl: "https://drive.google.com/file/d/1Js8yw2KIexF2DXxLY3QWfzTA-5PBelRa/view?usp=sharing",
             initialHeaders: {},
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(

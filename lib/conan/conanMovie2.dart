@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
@@ -66,7 +64,7 @@ class _conan2State extends State<conan2> {
                       width: 100,
                       child: InAppWebView(
                         initialUrl:
-                            "https://drive.google.com/file/d/1RwH3l1VoIVC18Qm169tobniygtpRAssQ/view",
+                            "https://drive.google.com/file/d/1pMeZfi9-eb1vPlfl1JQx5JUMK42oIU5K/view?usp=sharing",
                         initialHeaders: {},
                         initialOptions: InAppWebViewGroupOptions(
                           crossPlatform: InAppWebViewOptions(

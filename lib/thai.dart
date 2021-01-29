@@ -8,6 +8,9 @@ import 'package:emb_cartoon/kuroko/1-25kuroko.dart';
 import 'package:emb_cartoon/no game/1-25nogame.dart';
 
 class ThaiPage extends StatefulWidget {
+  final img;
+  final call;
+  ThaiPage({this.img,this.call});
   @override
   _ThaiPageState createState() => _ThaiPageState();
 }
@@ -71,13 +74,13 @@ class _ThaiPageState extends State<ThaiPage> {
                       image: DecorationImage(
                           fit: BoxFit.cover,
                           image: NetworkImage(
-                              'https://i.pinimg.com/originals/a6/d9/6b/a6d96b1e585781865bc6b4fe8d97a50f.jpg')),
+                              widget.img)),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Text(
-                      'Sword Art online',
+                      widget.call,
                       style: TextStyle(fontSize: 20.0),
                     ),
                   ),
@@ -242,6 +245,7 @@ class _ThaiPageState extends State<ThaiPage> {
                 ],
               ),
             ),),
+         
           ],
         ));
   }

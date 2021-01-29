@@ -36,7 +36,6 @@ class _bloodpageState extends State<bloodpage> {
             color: Color(0xffFFFF00),
           ),
         ),
-        
       ),
       body: Stack(
         children: <Widget>[

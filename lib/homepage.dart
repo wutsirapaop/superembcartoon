@@ -1,3 +1,9 @@
+import 'package:emb_cartoon/god%20of%20school%20subth/godschool.dart';
+import 'package:emb_cartoon/haikyusubth/haikyu.dart';
+import 'package:emb_cartoon/kimetsusubth/kimetsu.dart';
+import 'package:emb_cartoon/kuroko/1-25kuroko.dart';
+import 'package:emb_cartoon/no%20game/1-25nogame.dart';
+import 'package:emb_cartoon/punch%20line%20subth/punch.dart';
 import 'package:flutter/material.dart';
 import 'package:emb_cartoon/menu.dart';
 import 'package:emb_cartoon/conan/ConanMovie.dart';
@@ -5,8 +11,6 @@ import 'package:emb_cartoon/Doramon/doramon.dart';
 import 'package:emb_cartoon/howtodragon.dart';
 import 'package:emb_cartoon/1-25Saopage/1-14SAO.dart';
 import 'package:emb_cartoon/one out/1-25one out.dart';
-import 'package:emb_cartoon/kuroko/1-25kuroko.dart';
-import 'package:emb_cartoon/no game/1-25nogame.dart';
 
 class Myhomepage extends StatefulWidget {
   @override
@@ -34,7 +38,7 @@ class _HomepageState extends State<Myhomepage> {
             color: Color(0xffFFFF00), 
           ),
         ),
-      ),
+        ) ,
 
  
 
@@ -92,6 +96,7 @@ child: ListView(
       ),
     ),
     ),
+    
     Container(
       padding: EdgeInsets.all(4),
       child: GestureDetector(
@@ -209,6 +214,13 @@ Padding(
     
     Container(
       padding: const EdgeInsets.all(4),
+      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => punchpage()),
+                          );
+                        },
           child: Column(
         children: <Widget>[
           Container(
@@ -218,20 +230,27 @@ Padding(
               borderRadius: BorderRadius.circular(5),
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: NetworkImage('https://www.beartai.com/wp-content/uploads/2020/02/%E0%B8%9B%E0%B8%81-Recovered-3.jpg')
+                image: NetworkImage('https://www.anime-sugoi.com/upload/2b7780827a930ecf2a0152c1ef934331.jpg?v=6')
               )
             ) ,
           ),
-          Text('Dr.stone',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),
+          Text('Punch Line',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),
           textAlign: TextAlign.center,
           ),
            ],
       ),
-    ),
+    ),),
     
     
     Container(
       padding: const EdgeInsets.all(4),
+      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => godschoolpage()),
+                          );
+                        },
           child: Column(
         children: <Widget>[
           Container(
@@ -241,7 +260,7 @@ Padding(
               borderRadius: BorderRadius.circular(5),
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: NetworkImage('https://theouterhaven.b-cdn.net/wp-content/uploads/2020/09/God-of-highschool-anime-review-750x400.jpg')
+                image: NetworkImage('https://www.anime-sugoi.com/upload/08b185723d74a660fef69c2bfc8b6bbf.jpg?v=6')
               )
             ) ,
           ),
@@ -250,11 +269,18 @@ Padding(
           ),
            ],
       ),
-    ),
+    ),),
     
     
     Container(
       padding: const EdgeInsets.all(4),
+      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => kimetsupage()),
+                          );
+                        },
           child: Column(
         children: <Widget>[
           Container(
@@ -273,11 +299,18 @@ Padding(
           ),
            ],
       ),
-    ),
+    ),),
     
     
     Container(
       padding: const EdgeInsets.all(4),
+      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => haikyupage()),
+                          );
+                        },
           child: Column(
         children: <Widget>[
           Container(
@@ -296,7 +329,7 @@ Padding(
           ),
            ],
       ),
-    ),
+    ),),
      ]
   ),
           ),

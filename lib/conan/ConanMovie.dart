@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:emb_cartoon/homepage.dart';
 import 'package:emb_cartoon/conan/conanMovie1.dart';
@@ -30,7 +29,6 @@ class _ConanpageState extends State<Conanpage> {
               color: Color(0xffFFFF00),
             ),
           ),
-         
         ),
         bottomNavigationBar: BottomAppBar(
           color: Color(0xff000000),

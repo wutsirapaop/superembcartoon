@@ -1,3 +1,8 @@
+import 'package:emb_cartoon/god%20of%20school%20subth/godschool.dart';
+import 'package:emb_cartoon/haikyusubth/haikyu.dart';
+import 'package:emb_cartoon/kimetsusubth/kimetsu.dart';
+import 'package:emb_cartoon/punch%20line%20subth/punch.dart';
+import 'package:emb_cartoon/tari%20subth/tari.dart';
 import 'package:flutter/material.dart';
 import 'package:emb_cartoon/homepage.dart';
 class Subthaipage extends StatefulWidget {
@@ -23,7 +28,6 @@ class _SubthaipageState extends State<Subthaipage> {
               color: Color(0xffFFFF00),
             ),
           ),
-          
         ),
         bottomNavigationBar: BottomAppBar(
           color: Color(0xff000000),
@@ -48,6 +52,13 @@ class _SubthaipageState extends State<Subthaipage> {
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => haikyupage()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -74,10 +85,17 @@ class _SubthaipageState extends State<Subthaipage> {
                   ),
                 ],
               ),
-            ),
+            ),),
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => kimetsupage()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -104,10 +122,17 @@ class _SubthaipageState extends State<Subthaipage> {
                   ),
                 ],
               ),
-            ),
+            ),),
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => godschoolpage()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -117,7 +142,7 @@ class _SubthaipageState extends State<Subthaipage> {
                       image: DecorationImage(
                           fit: BoxFit.cover,
                           image: NetworkImage(
-                              'https://theouterhaven.b-cdn.net/wp-content/uploads/2020/09/God-of-highschool-anime-review-750x400.jpg')),
+                              'https://www.anime-sugoi.com/upload/08b185723d74a660fef69c2bfc8b6bbf.jpg?v=6')),
                     ),
                   ),
                   Padding(
@@ -129,15 +154,22 @@ class _SubthaipageState extends State<Subthaipage> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(4.0),
-                    child: Text('เทพเกรียน โรงเรียนมัธยม ตอนที่ 1-13 ซับไทย จบแล้ว',
+                    child: Text('เทพเกรียน โรงเรียนมัธยม ตอนที่ 1-13 ซับไทย',
                         style: TextStyle(fontSize: 16.0)),
                   ),
                 ],
               ),
-            ),
+            ),),
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => taripage()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -147,28 +179,35 @@ class _SubthaipageState extends State<Subthaipage> {
                       image: DecorationImage(
                           fit: BoxFit.cover,
                           image: NetworkImage(
-                              'https://www.beartai.com/wp-content/uploads/2020/02/%E0%B8%9B%E0%B8%81-Recovered-3.jpg')),
+                              'https://www.anime-sugoi.com/upload/486a5aa28cdb6d68471ea8c5cd3af8a6.jpg?v=6')),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Text(
-                      'Dr.stone',
+                      'Tari Tari',
                       style: TextStyle(fontSize: 20.0),
                     ),
                   ),
                   Container(
                     padding: const EdgeInsets.all(4.0),
                     child: Text(
-                        'ุด็อกเตอร์สโตน ตอนที่ 1-24 ซับไทย ',
+                        'ุบทเพลงบรรเลงฝัน ตอนที่ 1-13 ซับไทย',
                         style: TextStyle(fontSize: 16.0)),
                   ),
                 ],
               ),
-            ),
+            ),),
             Card(
               margin: EdgeInsets.all(8),
               elevation: 10,
+              child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(builder: (context) => punchpage()),
+                          );
+                        },
               child: Column(
                 children: <Widget>[
                   Container(
@@ -178,24 +217,24 @@ class _SubthaipageState extends State<Subthaipage> {
                       image: DecorationImage(
                           fit: BoxFit.cover,
                           image: NetworkImage(
-                              'https://webbiesworld.com/wp-content/uploads/2020/11/Jujutsu-Kaisen-1.jpeg')),
+                              'https://www.anime-sugoi.com/upload/2b7780827a930ecf2a0152c1ef934331.jpg?v=6')),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(6.0),
                     child: Text(
-                      'Jujutsu Kaisen',
+                      'Punch Line',
                       style: TextStyle(fontSize: 20.0),
                     ),
                   ),
                   Container(
                     padding: const EdgeInsets.all(4.0),
-                    child: Text('มหาเวทย์ผนึกมาร ตอนที่ 1-14 ซับไทย ยังไม่จบ',
+                    child: Text('Punch Line ตอนที่ 1-12 ซับไทย',
                         style: TextStyle(fontSize: 16.0)),
                   ),
                 ],
               ),
-            ),
+            ),),
           ],
         ));
   }

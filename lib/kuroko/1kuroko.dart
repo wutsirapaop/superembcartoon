@@ -3,12 +3,12 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 
 
-class _kuroko1 extends StatefulWidget {
+class kuroko1 extends StatefulWidget {
   @override
   _kuroko1State createState() => new _kuroko1State();
 }
 
-class _kuroko1State extends State<_kuroko1> {
+class _kuroko1State extends State<kuroko1> {
   InAppWebViewController webView;
 
   @override
@@ -57,7 +57,7 @@ class _kuroko1State extends State<_kuroko1> {
                           )),
           Expanded(
               child: InAppWebView(
-            initialUrl: "https://drive.google.com/file/d/1708Xm-e4qdaghuE-J7iSp4UdN5kb0o23/view?usp=sharing",
+            initialUrl: "https://drive.google.com/file/d/1-btmOYh1wyMbFIl4_ysGamWke0r8cu1t/view?usp=sharing",
             initialHeaders: {},
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(

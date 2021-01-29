@@ -1,7 +1,29 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:emb_cartoon/one out/1oneout.dart';
+import 'package:emb_cartoon/kuroko/1kuroko.dart';
+import 'package:emb_cartoon/kuroko/2kuroko.dart';
+import 'package:emb_cartoon/kuroko/3kuroko.dart';
+import 'package:emb_cartoon/kuroko/4kuroko.dart';
+import 'package:emb_cartoon/kuroko/5kuroko.dart';
+import 'package:emb_cartoon/kuroko/6kuroko.dart';
+import 'package:emb_cartoon/kuroko/7kuroko.dart';
+import 'package:emb_cartoon/kuroko/8kuroko.dart';
+import 'package:emb_cartoon/kuroko/9kuroko.dart';
+import 'package:emb_cartoon/kuroko/10kuroko.dart';
+import 'package:emb_cartoon/kuroko/11kuroko.dart';
+import 'package:emb_cartoon/kuroko/12kuroko.dart';
+import 'package:emb_cartoon/kuroko/13kuroko.dart';
+import 'package:emb_cartoon/kuroko/14kuroko.dart';
+import 'package:emb_cartoon/kuroko/15kuroko.dart';
+import 'package:emb_cartoon/kuroko/16kuroko.dart';
+import 'package:emb_cartoon/kuroko/17kuroko.dart';
+import 'package:emb_cartoon/kuroko/18kuroko.dart';
+import 'package:emb_cartoon/kuroko/19kuroko.dart';
+import 'package:emb_cartoon/kuroko/20kuroko.dart';
+import 'package:emb_cartoon/kuroko/21kuroko.dart';
+import 'package:emb_cartoon/kuroko/22kuroko.dart';
+import 'package:emb_cartoon/kuroko/23kuroko.dart';
+import 'package:emb_cartoon/kuroko/24kuroko.dart';
+import 'package:emb_cartoon/kuroko/25kuroko.dart';
 
 
 
@@ -66,7 +88,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko1()),
                         );
                       },
                       child: Container(
@@ -84,7 +106,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko2()),
                         );
                       },
                       child: Container(
@@ -102,7 +124,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko3()),
                         );
                       },
                       child: Container(
@@ -120,7 +142,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko4()),
                         );
                       },
                       child: Container(
@@ -138,7 +160,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko5()),
                         );
                       },
                       child: Container(
@@ -156,7 +178,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko6()),
                         );
                       },
                       child: Container(
@@ -174,7 +196,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko7()),
                         );
                       },
                       child: Container(
@@ -192,7 +214,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko8()),
                         );
                       },
                       child: Container(
@@ -210,7 +232,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko9()),
                         );
                       },
                       child: Container(
@@ -228,7 +250,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko10()),
                         );
                       },
                       child: Container(
@@ -246,7 +268,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko11()),
                         );
                       },
                       child: Container(
@@ -264,7 +286,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko12()),
                         );
                       },
                       child: Container(
@@ -282,7 +304,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) =>kuroko13()),
                         );
                       },
                       child: Container(
@@ -300,7 +322,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko14()),
                         );
                       },
                         child: Container(
@@ -318,7 +340,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko15()),
                         );
                       },
                         child: Container(
@@ -336,7 +358,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko16()),
                         );
                       },
                         child: Container(
@@ -354,7 +376,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko17()),
                         );
                       },
                         child: Container(
@@ -372,7 +394,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko18()),
                         );
                       },
                         child: Container(
@@ -390,7 +412,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko19()),
                         );
                       },
                         child: Container(
@@ -408,7 +430,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko20()),
                         );
                       },
                         child: Container(
@@ -426,7 +448,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko21()),
                         );
                       },
                         child: Container(
@@ -444,7 +466,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko22()),
                         );
                       },
                         child: Container(
@@ -462,7 +484,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko23()),
                         );
                       },
                         child: Container(
@@ -480,7 +502,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko24()),
                         );
                       },
                         child: Container(
@@ -498,7 +520,7 @@ class _kurokopageState extends State<kurokopage> {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute<void>(builder: (context) => oneout1()),
+                          MaterialPageRoute<void>(builder: (context) => kuroko25()),
                         );
                       },
                         child: Container(
