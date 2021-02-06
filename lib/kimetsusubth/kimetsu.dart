@@ -51,15 +51,7 @@ class _kimetsupageState extends State<kimetsupage> {
             color: Color(0xffFFFF00),
           ),
         ),
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.search,
-              color: Color(0xffFFFF00),
-            ),
-            onPressed: () {},
-          )
-        ],
+      
       ),
       body: Stack(
         children: <Widget>[

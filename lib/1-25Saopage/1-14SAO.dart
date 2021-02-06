@@ -28,11 +28,6 @@ import 'package:emb_cartoon/1-25Saopage/25sao.dart';
 
 
 class Saopage extends StatefulWidget {
-  final img;
-  final call;
-  final infor;
-  final short;
-  Saopage({this.img,this.call,this.infor,this.short});
   @override
   _SaopageState createState() => _SaopageState();
 }
@@ -57,17 +52,18 @@ class _SaopageState extends State<Saopage> {
             color: Color(0xffFFFF00),
           ),
         ),
+       
       ),
       body: Stack(
         children: <Widget>[
           ListView(children: <Widget>[
             Image.network(
-                widget.img),
+                'https://i.pinimg.com/originals/a6/d9/6b/a6d96b1e585781865bc6b4fe8d97a50f.jpg'),
             SizedBox(height: 40.0),
             Padding(
               padding: EdgeInsets.fromLTRB(10, 0, 10, 30),
               child: Text(
-                widget.short,
+                'เรื่องย่อ\n\nคิริงายะ คาสึโตะ เขาได้เข้าร่วมเล่น เกม เสมือนจริงที่มีชื่อว่า Sword Art Online หรือ SAO ซึ่งเมื่อเขาเล่นเกมส์ ต้อง พบว่าตนเอง ไม่สามารถลอ็กเอาท์ออกจากเกมได้ เหล่าผู้เล่นเกมทั้งหมดต้องติด อยู่ภายในเกม โดยไม่มีใครรู้ว่าผู้พัฒนาเกมมีเป้าหมายที่แท้จริงอย่างไรกันแน่!!! แต่ทางออกจากเกมนี้ไปได้มีเพียงต้องเคลียร์เกมได้สำเร็จ หรือโอเวอร์ในเกม ก็หมาย ถึง การตายของผู้เล่นที่เกิดขึ้นจริง ดังนั้นเพื่อตอบสนองเงื่อนไขของการเคลียร์เกมนี้และ ออก จากโลกเสมือนจริง คาสึโตะจึงต้องเคลียร์เกมนี้ให้สำเร็จให้ได้ หรือเขาต้องพบ กับความตาย!',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18.0,
@@ -84,7 +80,7 @@ class _SaopageState extends State<Saopage> {
                       color: Colors.yellow,
                       child: Center(
                         child: Text(
-                          widget.infor,
+                          'SAO ซอร์ดอาร์ตออนไลน์ ภาค 1  ',
                           style: TextStyle(color: Colors.black, fontSize: 25),
                         ),
                       )),

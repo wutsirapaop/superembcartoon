@@ -38,15 +38,7 @@ class _taripageState extends State<taripage> {
             color: Color(0xffFFFF00),
           ),
         ),
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.search,
-              color: Color(0xffFFFF00),
-            ),
-            onPressed: () {},
-          )
-        ],
+        
       ),
       body: Stack(
         children: <Widget>[

@@ -29,6 +29,7 @@ class _MoviePageState extends State<MoviePage> {
               color: Color(0xffFFFF00),
             ),
           ),
+         
         ),
         bottomNavigationBar: BottomAppBar(
           color: Color(0xff000000),

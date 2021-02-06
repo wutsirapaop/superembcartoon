@@ -28,6 +28,7 @@ class _OnepiecemoviepageState extends State<Onepiecemoviepage> {
               color: Color(0xffFFFF00),
             ),
           ),
+        
         ),
         bottomNavigationBar: BottomAppBar(
           color: Color(0xff000000),
